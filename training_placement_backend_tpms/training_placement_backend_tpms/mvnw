@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"
+WRAPPER_DIR="$DIR/.mvn/wrapper"
+JAR="$WRAPPER_DIR/maven-wrapper.jar"
+TAKARI_URL="https://repo1.maven.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+
+if [ ! -f "$JAR" ]; then
+  echo "maven wrapper jar not found; downloading from $TAKARI_URL"
+  mkdir -p "$WRAPPER_DIR"
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsSL "$TAKARI_URL" -o "$JAR"
+  elif command -v wget >/dev/null 2>&1; then
+    wget -qO "$JAR" "$TAKARI_URL"
+  else
+    echo "Error: curl or wget is required to download the maven wrapper jar." >&2
+    exit 1
+  fi
+fi
+
+java -jar "$JAR" "$@"
