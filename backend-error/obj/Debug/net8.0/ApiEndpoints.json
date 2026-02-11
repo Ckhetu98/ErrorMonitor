@@ -1,0 +1,966 @@
+[
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "GetAlerts",
+    "RelativePath": "api/alerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "CreateAlert",
+    "RelativePath": "api/alerts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.CreateAlertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "UpdateAlert",
+    "RelativePath": "api/alerts/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.UpdateAlertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "DeleteAlert",
+    "RelativePath": "api/alerts/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "ResolveAlert",
+    "RelativePath": "api/alerts/{id}/resolve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "GetMyApplicationAlerts",
+    "RelativePath": "api/alerts/my-applications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "GetAlertStats",
+    "RelativePath": "api/alerts/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AlertsController",
+    "Method": "GetUnresolvedAlerts",
+    "RelativePath": "api/alerts/unresolved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "GetApplications",
+    "RelativePath": "api/applications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "CreateApplication",
+    "RelativePath": "api/applications",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.DTOs.ApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/applications/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.DTOs.ApplicationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "DeleteApplication",
+    "RelativePath": "api/applications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "PauseApplication",
+    "RelativePath": "api/applications/{id}/pause",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ApplicationsController",
+    "Method": "ResumeApplication",
+    "RelativePath": "api/applications/{id}/resume",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuditController",
+    "Method": "GetAuditLogs",
+    "RelativePath": "api/audit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuditController",
+    "Method": "DebugAuditLogs",
+    "RelativePath": "api/audit/debug",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuditController",
+    "Method": "CreateAuditLog",
+    "RelativePath": "api/audit/log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.CreateAuditLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuditController",
+    "Method": "TestAuditLog",
+    "RelativePath": "api/audit/test-audit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "Get2FAStatus",
+    "RelativePath": "api/auth/2fa-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "Disable2FA",
+    "RelativePath": "api/auth/disable-2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.Enable2FARequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "Enable2FA",
+    "RelativePath": "api/auth/enable-2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.Enable2FARequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "GoogleAuth",
+    "RelativePath": "api/auth/google",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.GoogleAuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "GoogleCallback",
+    "RelativePath": "api/auth/google/callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "state",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/auth/google/login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.DTOs.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "ResendOTP",
+    "RelativePath": "api/auth/resend-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ResendOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "ToggleGlobal2FA",
+    "RelativePath": "api/auth/toggle-global-2fa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.GlobalToggle2FARequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.AuthController",
+    "Method": "VerifyOTP",
+    "RelativePath": "api/auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.VerifyOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "GetContactQueries",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "GetContactQuery",
+    "RelativePath": "api/Contact/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "ResolveContact",
+    "RelativePath": "api/Contact/{id}/resolve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ContactResolveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "RespondToContact",
+    "RelativePath": "api/Contact/{id}/respond",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ContactResponseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "UpdateContactStatus",
+    "RelativePath": "api/Contact/{id}/status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ContactStatusUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "GetContactStats",
+    "RelativePath": "api/Contact/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ContactController",
+    "Method": "SubmitContact",
+    "RelativePath": "api/Contact/submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.DTOs.ContactSubmissionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.DashboardController",
+    "Method": "GetActiveAlerts",
+    "RelativePath": "api/Dashboard/active-alerts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.DashboardController",
+    "Method": "GetApplicationHealth",
+    "RelativePath": "api/Dashboard/application-health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.DashboardController",
+    "Method": "GetRecentErrors",
+    "RelativePath": "api/Dashboard/recent-errors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.DashboardController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/Dashboard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.DashboardController",
+    "Method": "GetTrendAnalysis",
+    "RelativePath": "api/Dashboard/trend-analysis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorDetectionController",
+    "Method": "AnalyzeError",
+    "RelativePath": "api/ErrorDetection/analyze",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ErrorAnalysisRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorDetectionController",
+    "Method": "DetectAnomaly",
+    "RelativePath": "api/ErrorDetection/detect-anomaly",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.ErrorAnalysisRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorDetectionController",
+    "Method": "GetErrorPatterns",
+    "RelativePath": "api/ErrorDetection/patterns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorDetectionController",
+    "Method": "GetSimilarErrors",
+    "RelativePath": "api/ErrorDetection/similar/{errorMessage}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "errorMessage",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "GetErrorLogs",
+    "RelativePath": "api/errorlogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "severity",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "DeleteError",
+    "RelativePath": "api/errorlogs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "ResolveError",
+    "RelativePath": "api/errorlogs/{id}/resolve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/errorlogs/health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "LogError",
+    "RelativePath": "api/errorlogs/log",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.DTOs.ErrorLogRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ErrorLogsController",
+    "Method": "TestConnection",
+    "RelativePath": "api/errorlogs/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.LogIngestionController",
+    "Method": "IngestLog",
+    "RelativePath": "api/LogIngestion/ingest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.LogIngestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.LogIngestionController",
+    "Method": "IngestBulkLogs",
+    "RelativePath": "api/LogIngestion/ingest-bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.BulkLogIngestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.LogIngestionController",
+    "Method": "ValidateLogFormat",
+    "RelativePath": "api/LogIngestion/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.LogIngestionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ReportsController",
+    "Method": "GetApplicationPerformance",
+    "RelativePath": "api/Reports/application-performance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ReportsController",
+    "Method": "GetErrorSummary",
+    "RelativePath": "api/Reports/error-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ReportsController",
+    "Method": "GetSeverityBreakdown",
+    "RelativePath": "api/Reports/severity-breakdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.ReportsController",
+    "Method": "GetTrendAnalysis",
+    "RelativePath": "api/Reports/trend-analysis",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dateRange",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.SettingsController",
+    "Method": "GetSecuritySettings",
+    "RelativePath": "api/Settings/security",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.SettingsController",
+    "Method": "SaveSecuritySettings",
+    "RelativePath": "api/Settings/security",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.SecuritySettingsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ErrorMonitoringAPI.Controllers.UpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ErrorMonitoringAPI.Controllers.UsersController",
+    "Method": "ToggleUserStatus",
+    "RelativePath": "api/users/{id}/toggle-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
